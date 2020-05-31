@@ -3,7 +3,8 @@ import { BrowserRouter as Router,
         Switch,
         Route } from 'react-router-dom';
 import NavigationBar from './components/molecules/NavigationBar';
-import './App.scss';
+import './stylesheets/App.scss';
+import './stylesheets/NavigationBar.scss';
 
 
 //Router tutorial: https://reacttraining.com/react-router/web/guides/quick-start
