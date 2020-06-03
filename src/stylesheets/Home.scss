@@ -1,0 +1,74 @@
+.homeContainer{    
+    .bannerContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        
+        .welcomeTextContainer{
+            display: flex;
+            flex-direction: row;
+            .welcomeText-enter{
+                opacity: 0;
+            }
+            .welcomeText-enter-active{
+                opacity: 1;
+                transition: opacity 1000ms;
+            }
+            .welcomeText-exit{
+                opacity: 1;
+            }
+            .welcomeText-exit-active{
+                opacity: 0;
+                transition: opacity 1000ms;
+            }
+            @media screen and (min-width: 740px){
+                position: absolute;
+                color: white;
+                padding-top: 11%;
+            }
+            @media screen and (max-width: 740px){
+                position: absolute;
+                color: white;
+                padding-top: 40%;
+            }
+            
+        }    
+        .profilePic{
+            z-index: -1;
+        }
+        @media screen and (max-width: 740px){
+            overflow: hidden;
+        }
+    }
+    .resumeContainer{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20%;
+        padding-right: 20%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        // height: 100%;
+        .content{
+            flex: 1;
+            display: flex;            
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .picture{ 
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 50%;
+            img{
+                height: 200px;
+                width: 300px;
+                padding: 3%;
+            }
+        }
+    }
+}
+

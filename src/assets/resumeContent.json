@@ -1,0 +1,36 @@
+{
+    "item":[
+        {
+            "title": "Software Engineer",
+            "location": "Arity",
+            "description": "blah blah blah",
+            "time": "June 2020 - Present" 
+        },
+        {
+            "title": "Americas IT Intern",
+            "location": "Allegion PLC",
+            "description": "blah blah blah",
+            "time": "May 2019 - August 2019"
+        },
+        {
+            "title": "Engineering Intern",
+            "location": "Integris Engineering",
+            "description": "blah blah blah",
+            "time": "May 2018 - August 2018"
+        }
+    ],
+    "picture":[
+        {
+            "title": "Arity",
+            "ref": "arity-logo.png"
+        },
+        {
+            "title": "Allegion",
+            "ref": "allegion-logo.png"
+        },
+        {
+            "title": "Integris Engineering",
+            "ref" : "integris-logo.png"
+        }
+    ]
+}
