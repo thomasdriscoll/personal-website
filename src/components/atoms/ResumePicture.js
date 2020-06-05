@@ -5,5 +5,16 @@ export default class ResumePicture extends React.Component{
         super(props);
     }
 
+    render(){
+        return(
+            <a href={this.props.picture.website} target="_blank">
+                <img
+                    className="hoverImg shadow"                
+                    alt={this.props.picture.title}
+                    src= {require("../../assets/"+this.props.picture.ref)}
+                />
+            </a>
+        );
+    }
     
 }

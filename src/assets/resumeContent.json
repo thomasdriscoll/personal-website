@@ -1,5 +1,5 @@
 {
-    "item":[
+    "workItem":[
         {
             "title": "Software Engineer",
             "location": "Arity",
@@ -9,7 +9,7 @@
         {
             "title": "Americas IT Intern",
             "location": "Allegion PLC",
-            "description": "blah blah blah",
+            "description": "Allegion is a door security company operating out of Indianapolis, focused on",
             "time": "May 2019 - August 2019"
         },
         {
@@ -19,18 +19,37 @@
             "time": "May 2018 - August 2018"
         }
     ],
-    "picture":[
+    "workPicture":[
         {
             "title": "Arity",
-            "ref": "arity-logo.png"
+            "ref": "arity-logo.png",
+            "website":"https://www.arity.com/"
         },
         {
             "title": "Allegion",
-            "ref": "allegion-logo.png"
+            "ref": "allegion-logo.png",
+            "website":"https://www.allegion.com/corp/en/index.html"
         },
         {
             "title": "Integris Engineering",
-            "ref" : "integris-logo.png"
+            "ref" : "integris-logo.png",
+            "website": "http://engineering.integrisgp.com/"
+        }
+    ],
+    "funItem" : [
+        {
+            "title": "Project Lead and Co-Founder",
+            "location": "Open-Source at Illinois",
+            "description": "blah blah blah",
+            "time": "March 2019 - May 2020" 
+        }
+
+    ],
+    "funPicture" : [
+        {
+            "title": "Open-Source at Illinois",
+            "ref" : "open-source-logo.jpg",
+            "website" : "https://www.osai-web.com"
         }
     ]
 }
