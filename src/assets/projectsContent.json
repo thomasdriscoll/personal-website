@@ -1,0 +1,9 @@
+{
+    "legacyProject":[
+        {
+            "title" : "Open-Source at Illinois",
+            "picRef": "open-source-logo.jpg",
+            "description" : "My first truly full-stack project! A MEAN stack with Auth0 authentication, I built it as the foundational project for OSAI"
+        }
+    ]
+}

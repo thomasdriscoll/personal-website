@@ -1,0 +1,11 @@
+.bigDaddyContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "NavigationBar"
+
