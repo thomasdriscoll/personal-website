@@ -13,6 +13,9 @@ export default class WelcomeText extends React.Component{
         super(props);
         this.state = {in: false};
         this.change = this.change.bind(this);
+        this.greek = greek;
+        this.english = english;
+        this.wrapper = React.createRef();
     }
 
     componentDidMount() {
@@ -39,7 +42,7 @@ export default class WelcomeText extends React.Component{
                     onEntered= {this.change}
                     classNames="welcomeText"
                 >
-                    <h1>{this.state.in ? english: greek}</h1>
+                    <h1 ref={this.wrapper}>{this.state.in ? this.english: this.greek}</h1>
                 </CSSTransition>
                 </SwitchTransition>                    
             </div>

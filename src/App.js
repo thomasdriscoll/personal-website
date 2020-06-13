@@ -4,6 +4,7 @@ import { BrowserRouter as Router,
         Route } from 'react-router-dom';
 import NavigationBar from './components/molecules/NavigationBar';
 import Home from './components/organisms/Home';
+import Projects from './components/organisms/Projects';
 import './stylesheets/App.scss';
 
 
@@ -15,24 +16,19 @@ function App() {
       <div className='bigDaddyContainer'>
       <NavigationBar />
       <Switch> 
-        <Route path="/">
+        <Route exact path='/'>
             <Home />
         </Route>
-        <Route path="/projects">
+        <Route exact path='/projects'>
             <Projects />
         </Route>
-        <Route path="/blog">
+        <Route exact path='/blog'>
             <Blog />
-        </Route>
-        
-    </Switch>
-    </div>
+        </Route>        
+      </Switch>
+      </div>
     </Router>
   );
-}
-
-function Projects() {
-  return <h2>Projects</h2>;
 }
 
 function Blog() {

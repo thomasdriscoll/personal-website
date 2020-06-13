@@ -1,55 +1,70 @@
 {
-    "workItem":[
+    "workItem":  [
         {
             "title": "Software Engineer",
             "location": "Arity",
-            "description": "blah blah blah",
-            "time": "June 2020 - Present" 
+            "description": ["blah blah blah"],
+            "time": "June 2020 - Present" ,
+            "picTitle": "Arity",
+            "picRef": "arity-logo.png",
+            "website":"https://www.arity.com/"
         },
         {
             "title": "Americas IT Intern",
             "location": "Allegion PLC",
-            "description": "Allegion is a door security company operating out of Indianapolis, focused on",
-            "time": "May 2019 - August 2019"
+            "description": ["Allegion is a door security company operating out of Indianapolis, focused on"],
+            "time": "May 2019 - August 2019",
+            "picTitle": "Allegion",
+            "picRef": "allegion-logo.png",
+            "website":"https://www.allegion.com/corp/en/index.html"
         },
         {
             "title": "Engineering Intern",
             "location": "Integris Engineering",
-            "description": "blah blah blah",
-            "time": "May 2018 - August 2018"
-        }
-    ],
-    "workPicture":[
-        {
-            "title": "Arity",
-            "ref": "arity-logo.png",
-            "website":"https://www.arity.com/"
-        },
-        {
-            "title": "Allegion",
-            "ref": "allegion-logo.png",
-            "website":"https://www.allegion.com/corp/en/index.html"
-        },
-        {
-            "title": "Integris Engineering",
-            "ref" : "integris-logo.png",
+            "description": ["blah blah blah"],
+            "time": "May 2018 - August 2018",
+            "picTitle": "Integris Engineering",
+            "picRef" : "integris-logo.png",
             "website": "http://engineering.integrisgp.com/"
+        },
+        {
+            "title": "State Intern",
+            "location": "37th District Home Office",
+            "description" : ["blah blah blah"],
+            "time": "May 2016 - August 2016 and May 2017 - August 2017",
+            "picTitle" : "Seal of Illinois",
+            "picRef" : "seal-of-illinois.jpg",
+            "website" : "http://senatorweaver.com/"
         }
     ],
-    "funItem" : [
+    "funItem": [        
         {
             "title": "Project Lead and Co-Founder",
             "location": "Open-Source at Illinois",
-            "description": "blah blah blah",
-            "time": "March 2019 - May 2020" 
-        }
-
-    ],
-    "funPicture" : [
+            "description": ["blah blah blah"],
+            "time": "March 2019 - May 2020",
+            "picTitle": "Open-Source at Illinois",
+            "picRef" : "open-source-logo.jpg",
+            "website" : "https://www.osai-web.com" 
+        },
         {
-            "title": "Open-Source at Illinois",
-            "ref" : "open-source-logo.jpg",
-            "website" : "https://www.osai-web.com"
-        }
+            "title": "Research Assistant",
+            "location": "UIUC CS Department",
+            "description" : ["blah blah blah"],
+            "time": "February 2018 - June 2018",
+            "picTitle" : "blank",
+            "picRef": "weasel-bot.jpg",
+            "website": "http://nilles2.web.engr.illinois.edu/projects.html"
+
+        },
+        {
+            "title" : "Eagle Scout",
+            "location": "Boy Scouts of America",
+            "description" : ["paragraph1", "paragraph2"],
+            "time" : "December 18th, 2013 - Always",
+            "picTitle" : "Eagle Scout photo",
+            "picRef" : "eagle-scout.jpg",
+            "website" : "/"
+        }                
     ]
 }

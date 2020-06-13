@@ -2,11 +2,13 @@
     .bannerContainer{
         display: flex;
         align-items: center;
+        position: relative;
         flex-direction: column;
-        // background-color: grey;
         .welcomeTextContainer{
             display: flex;
             flex-direction: row;
+            position: absolute;
+            color: white;
             .welcomeText-enter{
                 opacity: 0;
             }
@@ -22,18 +24,15 @@
                 transition: opacity 1000ms;
             }
             @media screen and (min-width: 740px){
-                position: absolute;
-                color: white;
                 padding-top: 11%;
             }
             @media screen and (max-width: 740px){
-                position: absolute;
-                color: white;
                 padding-top: 40%;
             }
             
         }    
         .profilePic{
+            position: fixed;
             z-index: -1;
         }
         @media screen and (max-width: 740px){
@@ -52,69 +51,56 @@
             padding-top: 4%;
             align-self: center;
             border-bottom: 1px solid black;
-            // @media screen and (max-width: 740px){
-            //     // font-size: 30px;
-            // }
         }
-        // color: white;
         .jobContainer{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
             .content{
                 @media screen and (min-width: 740px){
                     flex: 2;
                     position: relative;
                     display: flex;            
-                    flex-direction: column;
-                    width: 60%;
+                    flex-direction: row;             
                 }
                 @media screen and (max-width: 740px){
                     position: relative;
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column-reverse;
                 }
                 .resumeItem{
                     @media screen and (min-width: 740px){
                         position: relative;
-                        margin: 5% 0 5% 0;
+                        margin: 5% 2% 5% 0;
                         height: 25%;
+                        width: 70%;
+                    }
+                }
+                .resumePicture{   
+                    display: flex;
+                    align-self: center;                 
+                    .hoverImg{
+                        height: 200px;  //makes sense to keep these fixed imo
+                        width: 300px;
+                        border-radius: 1rem;
+                        align-items: center;
+                        @media screen and (min-width: 740px){
+                            transition: transform .35s;
+                            margin: 10% 0% 10% 0%;
+                            background-color: white;
+                        }
+                    }
+                    @media screen and (min-width: 740px){
+                        .hoverImg:hover{
+                            transform: scale(1.15);
+                        }
                     }
                 }            
             }
-            .picture{ 
-                @media screen and (min-width: 740px){
-                    flex: 1;
-                    position: relative;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-evenly;
-                    align-items: left;
-                    height: 25%;
-                    width: 30%;
-                }
-                @media screen and (max-width: 740px){
-                    position: relative;
-                    display: flex;
-                    flex-direction: row;
-                }
-                .hoverImg{
-                    height: 200px;  //makes sense to keep these fixed imo
-                    width: 300px;
-                    @media screen and (min-width: 740px){
-                        border-radius: 1rem;
-                        transition: transform .35s;
-                        margin: 10% 0% 10% 0%;
-                        background-color: white;
-                    }
-                }
-                @media screen and (min-width: 740px){
-                    .hoverImg:hover{
-                        transform: scale(1.15);
-                    }
-                }
-            }
         }
+    }
+    .educationContainer{
+        display: flex;
     }
 }
 
