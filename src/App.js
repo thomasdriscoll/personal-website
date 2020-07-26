@@ -4,7 +4,6 @@ import { BrowserRouter as Router,
         Route } from 'react-router-dom';
 import NavigationBar from './components/molecules/NavigationBar';
 import Home from './components/organisms/Home';
-import Projects from './components/organisms/Projects';
 import './stylesheets/App.scss';
 
 function App() {
@@ -17,9 +16,13 @@ function App() {
         <Route exact path='/'>
             <Home />
         </Route>
-        <Route exact path='/projects'>
-            <Projects />
-        </Route>
+        <Route exact path='/projects' 
+          component={() => { 
+          window.location.href = 'https://wiki.thomas-driscoll.com'; 
+          return null;
+        }}
+        />          
+        
         <Route exact path='/blog'>
             <Blog />
         </Route>        

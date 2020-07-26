@@ -17,7 +17,7 @@ export default class NavigationBar extends React.Component{
                         <Nav.Link as={Link} to='/'>Home</Nav.Link>
                     </Nav.Item>    
                     <Nav.Item>
-                        <Nav.Link as={Link} to='/projects'>Projects</Nav.Link>
+                        <a class='nav-link' href="https://wiki.thomas-driscoll.com">Projects</a>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link as={Link} to='/blog'>Blog</Nav.Link>
