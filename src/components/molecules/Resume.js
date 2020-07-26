@@ -5,7 +5,7 @@ import ResumePicture from '../atoms/ResumePicture';
 const items = require("../../assets/resumeContent.json");
 const resumeItems = items.workItem.map((item, index) =>
     <div key={index} className="content">
-        <ResumeItem
+        <ResumeItem 
             item={item}
         />
         <ResumePicture  
