@@ -3,7 +3,11 @@
         {
             "title": "Software Engineer",
             "location": "Arity",
-            "description": ["blah blah blah"],
+            "description": [
+                "I'm currently working as a software engineer at Arity! It's been absolutely fantastic experience so far and I look forward to continuing to work with them.",
+                "My work is on the Shared Mobility, Vehicle Insights team, which delivers APIs and implements front-end mock-ups. My team's customers are typically data-driven ride-sharing companies, whom we provide with insight on vehicle conditions and driver information.",
+                "Our tech stack is React.js for the front-end, Sprint Boot Kotlin for the back-end and a mix of Postgres and Cassandra for our databases."
+            ],
             "time": "June 2020 - Present" ,
             "picTitle": "Arity",
             "picRef": "arity-logo.png",
@@ -12,7 +16,14 @@
         {
             "title": "Americas IT Intern",
             "location": "Allegion PLC",
-            "description": ["Allegion is a door security company operating out of Indianapolis, focused on"],
+            "description": [
+                "Full-time position as full-stack developer with .NET API back-end and Angular front-end", 
+                "- Team Developer on Customer Order Status Project",
+                "- Developed back-end controllers to sort users by region and/or brand",
+                "- Additional controller based on order number that returned tracking info and order details",
+                "Implemented complex mock-ups and filtered back-end results based on my controllers",
+                "Converted existing Leads Passing app to be responsive based upon user’s screen"
+            ],
             "time": "May 2019 - August 2019",
             "picTitle": "Allegion",
             "picRef": "allegion-logo.png",

@@ -2,8 +2,52 @@
     "legacyProject":[
         {
             "title" : "Open-Source at Illinois",
-            "picRef": "open-source-logo.jpg",
+            "url":"https://www.osai-web.com",
+            "github":"https://github.com/thomasdriscoll/open-source-illinois-web",
+            "status": "active",
+            "time" : "May 2019 - August 2019",
             "description" : "My first truly full-stack project! A MEAN stack with Auth0 authentication, I built it as the foundational project for OSAI"
+        },
+        {
+            "title" : "CS 225 website",
+            "url":"https://thomasdriscoll.pythonanywhere.com",
+            "github":"https://github.com/thomasdriscoll/cs225web",
+            "status": "active",
+            "time" : "May 2018 - August 2018",
+            "description" : " "
+         
+        }
+    ],
+    "currentProject":[ 
+        {
+            "title" : "Personal website",
+            "url":"https://thomas-driscoll.com",
+            "github":"https://github.com/thomasdriscoll/personal-website",
+            "wiki":"https://wiki.thomas-driscoll.com/index.php/Personal_Website",
+            "status": "active",
+            "time" : "May 2020 - present",
+            "description" : " "
+
+        },
+        {
+            "title" : "Arch Linux Server",
+            "url":"N/A",
+            "github":"TBD",
+            "wiki":"https://wiki.thomas-driscoll.com/index.php/Arch_Linux_Server",
+            "status": "active",
+            "time" : "September 2020 - present",
+            "description" : " "
+
+        },
+        {
+            "title" : "DriscollDocs",
+            "url":"https://wiki.thomas-driscoll.com",
+            "github":"",
+            "wiki":"https://wiki.thomas-driscoll.com/index.php/DriscollDocs",
+            "status": "active",
+            "time" : "",
+            "description" : " "
+
         }
     ]
 }

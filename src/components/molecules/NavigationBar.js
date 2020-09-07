@@ -15,13 +15,16 @@ export default class NavigationBar extends React.Component{
                 <Nav> 
                     <Nav.Item>
                         <Nav.Link as={Link} to='/'>Home</Nav.Link>
-                    </Nav.Item>    
+                    </Nav.Item>  
                     <Nav.Item>
-                        <a class='nav-link' href="https://wiki.thomas-driscoll.com">Projects</a>
+                        <Nav.Link as={Link} to='/resume'>Resume</Nav.Link>
+                    </Nav.Item>  
+                    <Nav.Item>
+                        <Nav.Link as={Link} to='/projects'>Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to='/blog'>Blog</Nav.Link>
-                    </Nav.Item>  
+                        <a class='nav-link' href="https://wiki.thomas-driscoll.com">Wiki</a>
+                    </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

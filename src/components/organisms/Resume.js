@@ -1,6 +1,7 @@
 import React from 'react';
 import ResumeItem from '../atoms/ResumeItem';
 import ResumePicture from '../atoms/ResumePicture';
+import '../../stylesheets/Resume.scss';
 
 const items = require("../../assets/resumeContent.json");
 const resumeItems = items.workItem.map((item, index) =>
@@ -29,21 +30,19 @@ const funItems = items.funItem.map((item, index) =>
 );
 
 export default class Resume extends React.Component{
-    // constructor(props){
-    //     super(props);
-    // }
-
     render(){
         return(
             <div className = "resumeContainer">
-                <h2>Where I've Worked</h2>
+                <h2>Work</h2>
                 <div className="jobContainer">
                     {resumeItems}
                 </div>
-                <h2>Who I've Been</h2>
+                <h2>Education</h2>
+                <h2>Roles</h2>
                 <div className="jobContainer">
                     {funItems}
                 </div>
+                <h2>Free time</h2>
             </div>
         );
     }
