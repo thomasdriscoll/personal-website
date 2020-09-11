@@ -1,0 +1,20 @@
+{
+    "educationItem": [
+        {
+            "picTitle" : "University of Illinois",
+            "picture": "universityOfIllinois.jpg",
+            "school" : "University of Illinois at Urbana-Champaign",
+            "GPA" : "3.4986/4.0 (UIUC declined to round up)",
+            "degree" : "B.S. in Computer Engineering with a minor in Religion",
+            "honors" : "Chancellor's Scholar"
+        },
+        {
+            "picTitle" : "Dunlap High School",
+            "picture" : "dhs-logo.png",
+            "school": "Dunlap High School",
+            "GPA": "4.0/4.0",
+            "degree": "High school diploma",
+            "honors": "Valedictorian"
+        }
+    ]
+}
