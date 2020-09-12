@@ -1,53 +1,40 @@
 {
-    "legacyProject":[
+    "projectItems":[
         {
-            "title" : "Open-Source at Illinois",
-            "url":"https://www.osai-web.com",
-            "github":"https://github.com/thomasdriscoll/open-source-illinois-web",
+            "title" : "Arch Linux Server",
+            "url":"https://wiki.thomas-driscoll.com/index.php/Arch_Linux_Server",
+            "github":"https://wiki.thomas-driscoll.com/index.php/Arch_Linux_Server",
+            "wiki":"https://wiki.thomas-driscoll.com/index.php/Arch_Linux_Server",
             "status": "active",
-            "time" : "May 2019 - August 2019",
-            "description" : "My first truly full-stack project! A MEAN stack with Auth0 authentication, I built it as the foundational project for OSAI"
+            "startDate" : "September 2020"
         },
         {
-            "title" : "CS 225 website",
-            "url":"https://thomasdriscoll.pythonanywhere.com",
-            "github":"https://github.com/thomasdriscoll/cs225web",
-            "status": "active",
-            "time" : "May 2018 - August 2018",
-            "description" : " "
-         
-        }
-    ],
-    "currentProject":[ 
+            "title" : "DriscollDocs",
+            "url":"https://wiki.thomas-driscoll.com",
+            "github":"https://wiki.thomas-driscoll.com",
+            "wiki":"https://wiki.thomas-driscoll.com/index.php/DriscollDocs",
+            "startDate" : "July 2020"
+        }, 
         {
             "title" : "Personal website",
             "url":"https://thomas-driscoll.com",
             "github":"https://github.com/thomasdriscoll/personal-website",
             "wiki":"https://wiki.thomas-driscoll.com/index.php/Personal_Website",
-            "status": "active",
-            "time" : "May 2020 - present",
-            "description" : " "
-
+            "startDate" : "May 2020"
         },
         {
-            "title" : "Arch Linux Server",
-            "url":"N/A",
-            "github":"TBD",
-            "wiki":"https://wiki.thomas-driscoll.com/index.php/Arch_Linux_Server",
-            "status": "active",
-            "time" : "September 2020 - present",
-            "description" : " "
-
+            "title" : "Open-Source at Illinois",
+            "url":"https://www.osai-web.com",
+            "github":"https://github.com/thomasdriscoll/open-source-illinois-web",
+            "wiki":"https://thomas-driscoll.com/index.php/Osai-web",
+            "startDate" : "May 2019"
         },
         {
-            "title" : "DriscollDocs",
-            "url":"https://wiki.thomas-driscoll.com",
-            "github":"",
-            "wiki":"https://wiki.thomas-driscoll.com/index.php/DriscollDocs",
-            "status": "active",
-            "time" : "",
-            "description" : " "
-
+            "title" : "CS 225 website",
+            "url":"https://thomasdriscoll.pythonanywhere.com",
+            "github":"https://github.com/thomasdriscoll/cs225web",
+            "wiki":"https://thomas-driscoll.com/index.php/CS_225_Website",
+            "startDate" : "May 2018"         
         }
     ]
 }

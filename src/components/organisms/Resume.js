@@ -44,7 +44,6 @@ export default class Resume extends React.Component{
                 </div>
                 <h2>Education</h2>
                 <Education />
-                <h2>Free time</h2>
             </div>
         );
     }

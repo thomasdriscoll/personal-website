@@ -22,19 +22,20 @@ export default class EducationCard extends React.Component {
             <div className="educationCard">
                 <ReactCardFlip 
                 isFlipped={this.state.isFlipped}>    
-                    <img 
-                        alt={this.item.picTitle}
-                        src={require("../../assets/"+this.item.picture)} 
-                        className = "educationCardImg"
-                        onClick= {this.handleClick}
-                    />
+                    <div>
+                        <img 
+                            alt={this.item.picTitle}
+                            src={require("../../assets/"+this.item.picture)} 
+                            className = "educationCardImg"
+                            onClick= {this.handleClick}
+                        />
+                    </div>
                     <Card 
                         onClick={this.handleClick}
-                        className= "educationCardContent"
+                        className= "educationCardContent shadow"
                         variant="outlined"
                     > 
-                        <CardContent
-                            height = '300px'>
+                        <CardContent>
                             <Typography className="title">
                                 {this.item.school}
                             </Typography>

@@ -1,0 +1,13 @@
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    .introContainer{
+        padding: 3% 10% 0% 10%;
+    }
+    .timelineContainer{
+        width: 100%;
+        padding-right: 30%;
+    }    
+}

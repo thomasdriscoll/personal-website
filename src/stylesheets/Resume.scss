@@ -69,12 +69,25 @@
             .educationCardImg {
                 height: 300px;
                 width : 300px;
+                border-radius: 1rem;
+                align-items: center;
+                @media screen and (min-width: 740px){
+                    transition: transform .35s;
+                    margin: 10% 0% 10% 0%;
+                    background-color: white;
+                }
+            }
+            @media screen and (min-width: 740px){
+                .educationCardImg:hover{
+                    transform: scale(1.15);
+                }
             }
             .educationCardContent{
-                height: 300px;
-                width: 350px;
+                height: 345px;
+                width: 345px;
                 border-radius: 1rem;
             }
+            
         }
     }    
 }
