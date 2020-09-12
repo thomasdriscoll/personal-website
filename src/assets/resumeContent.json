@@ -17,12 +17,9 @@
             "title": "Americas IT Intern",
             "location": "Allegion PLC",
             "description": [
-                "Full-time position as full-stack developer with .NET API back-end and Angular front-end", 
-                "- Team Developer on Customer Order Status Project",
-                "- Developed back-end controllers to sort users by region and/or brand",
-                "- Additional controller based on order number that returned tracking info and order details",
-                "Implemented complex mock-ups and filtered back-end results based on my controllers",
-                "Converted existing Leads Passing app to be responsive based upon user’s screen"
+                "I had an amazing experience as an intern at Allegion. I worked as full-stack developer, utilizing a .NET API back-end and Angular front-end.", 
+                "The major project I worked on as a team developer was the Customer Order Status Project, which required developing back-end controllers to sort users by region and/or brand. Additionally, I developed a controller that, given an order number, returned tracking info and order details.",
+                "On the front-end side, I implemented complex mock-ups and filtered back-end results based on the controllers I made. I also strongly believe in a mobile-first dev approach, so I converted the existing Leads Passing app to be response."
             ],
             "time": "May 2019 - August 2019",
             "picTitle": "Allegion",
@@ -32,7 +29,8 @@
         {
             "title": "Engineering Intern",
             "location": "Integris Engineering",
-            "description": ["blah blah blah"],
+            "description": ["My first internship as an engineer was a rewarding experience. It was the first time I encountered HTML, CSS and Javascript, and through that, all my future projects and jobs. I'm deeply grateful for the time my co-workers invested in training me. While I was technically an employee of Integris engineering, I worked from the Mossville Caterpillar plant.",
+            "During my team at Caterpillar/Integris, I created a few small applications using a Flask server. My main project that summer was converting legacy Fortran code to a modern Flask app. The project was challenging and presented unique difficulties! "],
             "time": "May 2018 - August 2018",
             "picTitle": "Integris Engineering",
             "picRef" : "integris-logo.png",

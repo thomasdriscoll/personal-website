@@ -1,15 +1,19 @@
 .homeContainer{
     display: flex;
+    height: 100%;
+    width: 100%;
     .bannerContainer{
         display: flex;
         position: relative;
         flex-direction: column;
         align-content: center;
+        background-color: none;
         .welcomeTextContainer{
             display: flex;
             flex-direction: row;
             position: absolute;
             color: white;
+            z-index: 1;
             .welcomeText-enter{
                 opacity: 0;
             }
@@ -35,8 +39,8 @@
             }
         }    
         .profilePic{
+            padding-top: 3%;
             height: 420px;
-            z-index: -1;
         }
         @media screen and (min-width: 740px){
             margin-left: 10%;

@@ -1,3 +1,6 @@
-.custom-navbar{
+.thomasNavbar{
     color: orange !important;
+    @media screen and (min-width: 740px){
+        align-items: center;
+    }
 }

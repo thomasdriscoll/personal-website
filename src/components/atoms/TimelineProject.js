@@ -4,7 +4,7 @@ import {Card, CardContent} from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 
 
-const color_array = ["primary", "secondary", "grey"]
+const color_array = ["primary"]
 
 export default class TimelineProject extends React.Component {
     constructor(props){
