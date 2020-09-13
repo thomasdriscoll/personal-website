@@ -5,6 +5,11 @@ import HomeText from '../atoms/HomeText.js';
 
 
 export default class Home extends React.Component {
+    
+    componentDidMount(){
+        document.title = "Home - Thomas Driscoll"
+    }
+
     render(){
         return(
             <div className="homeContainer">

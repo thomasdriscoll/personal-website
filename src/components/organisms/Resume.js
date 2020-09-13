@@ -32,6 +32,9 @@ const funItems = items.funItem.map((item, index) =>
 );
 
 export default class Resume extends React.Component{
+    componentDidMount(){
+        document.title = "Resume - Thomas Driscoll";
+    }
     render(){
         return(
             <div className = "resumeContainer">
