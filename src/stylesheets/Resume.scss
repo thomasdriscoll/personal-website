@@ -1,0 +1,125 @@
+.resumeContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15% 0 15%;
+    background-color: #efefef;
+    @media screen and (max-width: 770px){
+        padding: 0 5% 0 5%;
+        // flex-direction: row;
+    }
+    h2{
+        padding-top: 4%;
+        align-self: center;
+        border-bottom: 1px solid black;
+    }
+    .jobContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        @media screen and (max-width: 770px){
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .content{
+            @media screen and (min-width: 770px){
+                flex: 2;
+                position: relative;
+                display: flex;            
+                flex-direction: row;             
+            }
+            @media screen and (max-width: 770px){
+                position: relative;
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .resumeItem{
+                @media screen and (min-width: 770px){
+                    position: relative;
+                    margin: 5% 2% 5% 0;
+                    padding-right: 10%;
+                    height: 25%;
+                    width: 70%;
+                }
+                @media screen and (max-width: 770px){
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                }
+            }
+            .resumePicture{   
+                display: flex;
+                align-self: center;                 
+                .hoverImg{
+                    height: 200px;  //makes sense to keep these fixed imo
+                    width: 300px;
+                    border-radius: 1rem;
+                    align-items: center;
+                    @media screen and (min-width: 770px){
+                        transition: transform .35s;
+                        margin: 10% 0% 10% 0%;
+                        background-color: white;
+                    }
+                }
+                @media screen and (min-width: 770px){
+                    .hoverImg:hover{
+                        transform: scale(1.10);
+                    }
+                }
+            }            
+        }
+    }
+    .educationContainer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        @media screen and (min-width: 770px){
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        @media screen and (max-width: 770px){
+            margin-top: 5%;
+            margin-bottom: 5%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .educationCard{
+            .educationCardImg {
+                height: 250px;
+                width : 250px;
+                border-radius: 1rem;
+                @media screen and (min-width: 770px){
+                    transition: transform .35s;
+                    margin: 10% 0% 10% 0%;
+                    background-color: white;
+                }
+            }
+            @media screen and (min-width: 740px){
+                .educationCardImg:hover{
+                    transform: scale(1.05);
+                }
+            }
+            .educationCardContent{
+                height: 262px;
+                width: 262px;
+                border-radius: 1rem;
+            }
+            @media screen and (max-width: 770px){
+                margin-bottom: 3%;
+                margin-top: 3%;
+            }
+        }
+    }
+    .skillContainer{
+        display: flex;
+        .skillList{
+            margin-top: 3%;
+            @media screen and (min-width: 770px){
+                column-count: 3;
+            }
+            @media screen and (max-width: 770px){
+                column-count: 2;
+            }
+        }
+        padding-bottom: 10%;
+    }    
+}

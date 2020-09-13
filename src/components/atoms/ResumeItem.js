@@ -1,5 +1,7 @@
 import React from 'react';
-
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
 
 export default class ResumeItem extends React.Component{
     constructor(props){
@@ -11,11 +13,19 @@ export default class ResumeItem extends React.Component{
 
     render(){
         return(
-            <div className="resumeItem">
-                <h4>{this.props.item.title}</h4>
-                <h6>{this.props.item.time}</h6>
-                {this.paragraph}
-            </div>
+            <Card className="resumeItem">
+                <CardContent>
+                    <Typography variant="h5" component="h5">
+                        {this.props.item.title}
+                    </Typography>
+                    <Typography color='textSecondary'>
+                        {this.props.item.time}
+                    </Typography>
+                    <Typography variant='body2' component='p'>
+                        {this.paragraph}
+                    </Typography>
+                </CardContent>
+            </Card>
         );
     }
 }

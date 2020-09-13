@@ -5,6 +5,8 @@ import { BrowserRouter as Router,
 import NavigationBar from './components/molecules/NavigationBar';
 import Home from './components/organisms/Home';
 import './stylesheets/App.scss';
+import Resume from './components/organisms/Resume';
+import Projects from './components/organisms/Projects';
 
 function App() {
   //Consider using react-router-transition for switching between pages
@@ -16,24 +18,22 @@ function App() {
         <Route exact path='/'>
             <Home />
         </Route>
-        <Route exact path='/projects' 
+        <Route exact path='/resume'>
+          <Resume />
+        </Route>
+        <Route exact path='/projects'>
+          <Projects />
+        </Route>
+        <Route exact path='/wiki' 
           component={() => { 
           window.location.href = 'https://wiki.thomas-driscoll.com'; 
           return null;
         }}
-        />          
-        
-        <Route exact path='/blog'>
-            <Blog />
-        </Route>        
+        />                 
       </Switch>
       </div>
     </Router>
   );
-}
-
-function Blog() {
-  return <h2>Blog</h2>;
 }
 
 export default App;

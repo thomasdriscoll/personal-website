@@ -1,8 +1,18 @@
+html, body{
+    margin:0;
+    height: 100%;
+    width: 100%;
+}
+#root{
+    height: 100%;
+}
 .bigDaddyContainer{
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
+    background-color: #efefef;
+
 }
 
 
