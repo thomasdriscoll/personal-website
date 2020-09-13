@@ -36,7 +36,7 @@ export default class EducationCard extends React.Component {
                         variant="outlined"
                     > 
                         <CardContent>
-                            <Typography variant='h5' className="title" gutterBottom>
+                            <Typography variant='h6' component='h6' className="title" gutterBottom>
                                 {this.item.school}
                             </Typography>
                             <Typography variant="body2" component="p">
