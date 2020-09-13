@@ -36,15 +36,17 @@ export default class EducationCard extends React.Component {
                         variant="outlined"
                     > 
                         <CardContent>
-                            <Typography className="title">
+                            <Typography variant='h5' className="title" gutterBottom>
                                 {this.item.school}
                             </Typography>
                             <Typography variant="body2" component="p">
-                                GPA: {this.item.GPA}
+                                <b>GPA</b>: {this.item.GPA}
                                 <br />
-                                Degree: {this.item.degree}
+                                <b>Date</b>: {this.item.date}
                                 <br />
-                                Honors: {this.item.honors}
+                                <b>Degree</b>: {this.item.degree}
+                                <br />
+                                <b>Honors</b>: {this.item.honors}
                             </Typography>
                         </CardContent>
                     </Card>

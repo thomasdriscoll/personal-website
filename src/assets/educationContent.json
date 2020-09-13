@@ -5,6 +5,7 @@
             "picture": "universityOfIllinois.jpg",
             "school" : "University of Illinois at Urbana-Champaign",
             "GPA" : "3.4986/4.0 (UIUC declined to round up)",
+            "date" : "August 2016 - May 2020",
             "degree" : "B.S. in Computer Engineering with a minor in Religion",
             "honors" : "Chancellor's Scholar"
         },
@@ -12,9 +13,10 @@
             "picTitle" : "Dunlap High School",
             "picture" : "dhs-logo.png",
             "school": "Dunlap High School",
+            "date" : "August 2012 - May 2016",
             "GPA": "4.0/4.0",
             "degree": "High school diploma",
-            "honors": "Valedictorian"
+            "honors": "Valedictorian, High Honor Roll"
         }
     ]
 }

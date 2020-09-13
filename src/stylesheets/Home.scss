@@ -2,6 +2,9 @@
     display: flex;
     height: 100%;
     width: 100%;
+    @media screen and (max-width: 770px){
+        flex-direction: column;
+    }
     .bannerContainer{
         display: flex;
         position: relative;
@@ -54,6 +57,9 @@
     }
     .homeTextContainer{
         padding: 5% 10%;
+        .introText{
+            font-size: 20px;
+        }
     }
 }
 

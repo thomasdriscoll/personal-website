@@ -3,6 +3,7 @@ import ResumeItem from '../atoms/ResumeItem';
 import ResumePicture from '../atoms/ResumePicture';
 import '../../stylesheets/Resume.scss';
 import Education from '../molecules/Education';
+import Skills from '../molecules/Skills';
 
 const items = require("../../assets/resumeContent.json");
 const resumeItems = items.workItem.map((item, index) =>
@@ -44,6 +45,8 @@ export default class Resume extends React.Component{
                 </div>
                 <h2>Education</h2>
                 <Education />
+                <h2>Skills</h2>
+                <Skills />
             </div>
         );
     }

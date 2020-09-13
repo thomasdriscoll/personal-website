@@ -15,7 +15,7 @@ export default class ResumeItem extends React.Component{
         return(
             <Card className="resumeItem">
                 <CardContent>
-                    <Typography variant="h4" component="h4">
+                    <Typography variant="h5" component="h5">
                         {this.props.item.title}
                     </Typography>
                     <Typography color='textSecondary'>

@@ -30,7 +30,7 @@
             "title": "Engineering Intern",
             "location": "Integris Engineering",
             "description": ["My first internship as an engineer was a rewarding experience. It was the first time I encountered HTML, CSS and Javascript, and through that, all my future projects and jobs. I'm deeply grateful for the time my co-workers invested in training me. While I was technically an employee of Integris engineering, I worked from the Mossville Caterpillar plant.",
-            "During my team at Caterpillar/Integris, I created a few small applications using a Flask server. My main project that summer was converting legacy Fortran code to a modern Flask app. The project was challenging and presented unique difficulties! "],
+            "While I created a few small applications using a Flask server, my main project that summer was converting legacy Fortran code to a modern Flask app. The project was challenging and presented unique difficulties! "],
             "time": "May 2018 - August 2018",
             "picTitle": "Integris Engineering",
             "picRef" : "integris-logo.png",
@@ -39,7 +39,11 @@
         {
             "title": "State Intern",
             "location": "37th District Home Office",
-            "description" : ["blah blah blah"],
+            "description" : [
+                "My very first job (which worked out to be about $2/hour), I worked as an intern for my local state senator, Chuck Weaver. It was an amazing experience that allowed me to connect strongly with the Peoria, Illinois community.",
+                "My day-to-day responsibilities involved aiding and helping constituents during the 2016-2017 Illinois budget crisis, directing them to what state resources were available.",
+                "While I respect and appreciate Senator Weaver and his team deeply, I do not necessarily agree or disagree with his policies, as I was most motivated as a 17/18 year old in being involved with local government."
+            ],
             "time": "May 2016 - August 2016 and May 2017 - August 2017",
             "picTitle" : "Seal of Illinois",
             "picRef" : "seal-of-illinois.jpg",
@@ -50,7 +54,10 @@
         {
             "title": "Project Lead and Co-Founder",
             "location": "Open-Source at Illinois",
-            "description": ["blah blah blah"],
+            "description": [
+                "Togther with my friends Brian Wilens and Ben Thayer, I founded Open-Source at Illinois, a Mozilla-sponsored club that promoted open-source principles and projects at UIUC. The summer of 2019, I wrote the club's initial website, a MEAN app that utilized Auth0 Github verification",
+                "During the school year, I acted as project manager, directing freshmen and sophomores in a variety of projects and open-source contributions. After COVID-19 hit the US, I worked with my team to transition to an completely online community, which is still alive and thriving on Discord."
+            ],
             "time": "March 2019 - May 2020",
             "picTitle": "Open-Source at Illinois",
             "picRef" : "open-source-logo.jpg",
@@ -59,9 +66,12 @@
         {
             "title": "Research Assistant",
             "location": "UIUC CS Department",
-            "description" : ["blah blah blah"],
+            "description" : [
+                "In my sophomore and junior year, I was involved with Alli Nilles' research into self-assembly and aggregate robotics. Utilizing weasel bots to simulate “dumb” movement, the team designed robots to mechanically form complex shapes (e.g., triangle, square, etc.) without human input",
+                "My project was to simulate and model the collision of these robots in a graphical simulator, which I accomplished using the open source PyGame graphical interface"
+                ],
             "time": "February 2018 - June 2018",
-            "picTitle" : "blank",
+            "picTitle" : "Weaselball",
             "picRef": "weasel-bot.jpg",
             "website": "http://nilles2.web.engr.illinois.edu/projects.html"
 
@@ -69,11 +79,14 @@
         {
             "title" : "Eagle Scout",
             "location": "Boy Scouts of America",
-            "description" : ["paragraph1", "paragraph2"],
-            "time" : "December 18th, 2013 - Always",
+            "description" : [
+                "One of the fundamental building blocks of my childhood, I was regularly involved with Scouts starting from the age of 6 till 15. I have so many fond memories of kayaking, hiking, and swimming every summer. Along the way to getting my Eagle, I discovered a now lifelong interest in personal finance and physical fitness!", 
+                "My Eagle Scout project was a book drive, which intersected my lifelong love with reading and the lack of funding for library materials in Peoria, Illinois's school district 150. Working with a team of friends and family, we were able to collect approximately a 1000 books that were donated to the Franklin Primary school."],
+            "time" : "December 18th, 2013 - Present",
             "picTitle" : "Eagle Scout photo",
             "picRef" : "eagle-scout.jpg",
             "website" : "/"
         }                
-    ]
+    ],
+    "tech_skills": ["React", "Spring Boot Java/Kotlin", "Flask", ".NET #C APIs", "Angular", "Git", "Express.js", "ECE 391 OS dev", "HTML5/SCSS", "MongoDB", "PostgreSQL", "Attic Greek - Intermediate"]
 }
