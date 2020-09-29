@@ -3,7 +3,7 @@ import React from 'react'
 const items = require("../../assets/resumeContent");
 
 const li_items = items.tech_skills.map((item, index) =>
-    <li className="skillItem">{item}</li>
+    <li key={index} className="skillItem">{item}</li>
 );
 
 

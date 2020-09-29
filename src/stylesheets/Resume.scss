@@ -1,5 +1,4 @@
 .resumeContainer{
-    display: flex;
     flex-direction: column;
     padding: 0 15% 0 15%;
     background-color: #efefef;
@@ -13,7 +12,7 @@
         border-bottom: 1px solid black;
     }
     .jobContainer{
-        display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         flex-wrap: wrap;
         @media screen and (max-width: 770px){
@@ -24,12 +23,12 @@
             @media screen and (min-width: 770px){
                 flex: 2;
                 position: relative;
-                display: flex;            
+                display: -webkit-flex;            
                 flex-direction: row;             
             }
             @media screen and (max-width: 770px){
                 position: relative;
-                display: flex;
+                display: -webkit-flex;
                 flex-direction: column-reverse;
             }
             .resumeItem{
@@ -45,7 +44,7 @@
                 }
             }
             .resumePicture{   
-                display: flex;
+                display: -webkit-flex;
                 align-self: center;                 
                 .hoverImg{
                     height: 200px;  //makes sense to keep these fixed imo
@@ -67,7 +66,7 @@
         }
     }
     .educationContainer{
-        display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: space-between;
@@ -109,7 +108,7 @@
         }
     }
     .skillContainer{
-        display: flex;
+        display: -webkit-flex;
         .skillList{
             margin-top: 3%;
             @media screen and (min-width: 770px){

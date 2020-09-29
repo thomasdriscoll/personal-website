@@ -1,18 +1,18 @@
 .homeContainer{
-    display: flex;
+    display: -webkit-flex;
     height: 100%;
     width: 100%;
     @media screen and (max-width: 770px){
         flex-direction: column;
     }
     .bannerContainer{
-        display: flex;
+        display: -webkit-flex;
         position: relative;
         flex-direction: column;
         align-content: center;
         background-color: none;
         .welcomeTextContainer{
-            display: flex;
+            display: -webkit-flex;
             flex-direction: row;
             position: absolute;
             color: white;

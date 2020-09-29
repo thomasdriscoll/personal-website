@@ -7,7 +7,9 @@ export default class ResumeItem extends React.Component{
     constructor(props){
         super(props);
         this.paragraph = this.props.item.description.map((paragraph, index) =>
-            <p key={index}>{paragraph}</p>
+            <div key={index}>
+                <p>{paragraph}</p>
+            </div>
         )
     }
 
@@ -21,7 +23,7 @@ export default class ResumeItem extends React.Component{
                     <Typography color='textSecondary'>
                         {this.props.item.time}
                     </Typography>
-                    <Typography variant='body2' component='p'>
+                    <Typography variant='body2' component='div'>
                         {this.paragraph}
                     </Typography>
                 </CardContent>

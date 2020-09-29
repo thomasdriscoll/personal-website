@@ -11,7 +11,7 @@ export default class HomeText extends React.Component {
                 Please feel free to reach out to me at any time at thomasdriscoll98@gmail.com
                 </p>
                 <br /> <br />
-                This website is supported on Google Chrome, Mozilla Firefox, Microsoft Edge and IE 11. Apple Safari is not supported at this time as I run Windows/Linux and cannot test it.
+                This website is actively supported on Windows for Google Chrome, Mozilla Firefox, Microsoft Edge and IE 11. Apple Safari is supported periodically (basically whenever I can steal my Mom's Mac for a weekend).
             </div>
         )
     }

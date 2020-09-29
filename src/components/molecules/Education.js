@@ -4,7 +4,7 @@ import EducationCard from '../atoms/EducationCard';
 const items = require("../../assets/educationContent.json");
 
 const educationItems = items.educationItem.map((item, index) => 
-    <EducationCard item={item}/>
+    <EducationCard key={index} item={item}/>
 );
 
 
