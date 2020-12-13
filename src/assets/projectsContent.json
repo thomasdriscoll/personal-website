@@ -2,38 +2,38 @@
     "projectItems":[
         {
             "title" : "Arch Linux Server",
-            "url":"https://wiki.thomas-driscoll.com/index.php/Arch_Linux_Server",
-            "github":"https://wiki.thomas-driscoll.com/index.php/Arch_Linux_Server",
-            "wiki":"https://wiki.thomas-driscoll.com/index.php/Arch_Linux_Server",
+            "url":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Arch%20Linux%20Server/",
+            "github":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Arch%20Linux%20Server/",
+            "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Arch%20Linux%20Server/",
             "status": "active",
             "startDate" : "Sept. 2020"
         },
         {
             "title" : "DriscollDocs",
-            "url":"https://wiki.thomas-driscoll.com",
-            "github":"https://wiki.thomas-driscoll.com",
-            "wiki":"https://wiki.thomas-driscoll.com/index.php/DriscollDocs",
+            "url":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Main/",
+            "github":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Main/",
+            "wiki": "https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Main/",
             "startDate" : "July 2020"
         }, 
         {
             "title" : "Personal website",
-            "url":"https://thomas-driscoll.com",
+            "url":"https://resume.thomas-driscoll.com",
             "github":"https://github.com/thomasdriscoll/personal-website",
-            "wiki":"https://wiki.thomas-driscoll.com/index.php/Personal_Website",
+            "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Resume%20Website/",
             "startDate" : "May 2020"
         },
         {
             "title" : "Open-Source at Illinois",
-            "url":"https://www.osai-web.com",
+            "url":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/opensource%40illinois/",
             "github":"https://github.com/thomasdriscoll/open-source-illinois-web",
-            "wiki":"https://thomas-driscoll.com/index.php/Osai-web",
+            "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/opensource%40illinois/",
             "startDate" : "May 2019"
         },
         {
             "title" : "CS 225 website",
             "url":"https://thomasdriscoll.pythonanywhere.com",
             "github":"https://github.com/thomasdriscoll/cs225web",
-            "wiki":"https://thomas-driscoll.com/index.php/CS_225_Website",
+            "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/CS%20225%20Website/",
             "startDate" : "May 2018"         
         }
     ]
