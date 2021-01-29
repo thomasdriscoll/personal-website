@@ -88,5 +88,5 @@
             "website" : "/"
         }                
     ],
-    "tech_skills": ["React", "Spring Boot Java/Kotlin", "Flask", ".NET #C APIs", "Angular", "Git", "Express.js", "ECE 391 OS dev", "HTML5/SCSS", "MongoDB", "PostgreSQL", "Attic Greek - Intermediate"]
+    "tech_skills": ["React", "Spring Boot Java/Kotlin", "Flask", ".NET #C APIs", "Angular", "Git", "Express.js", "ECE 391 OS dev", "HTML5/SCSS", "MongoDB", "PostgreSQL", "Attic Greek - Intermediate", "Docker"]
 }

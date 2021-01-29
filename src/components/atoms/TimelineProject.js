@@ -32,9 +32,13 @@ export default class TimelineProject extends React.Component {
                                 {this.item.title}
                             </Typography>
                             <Typography>
-                                <a href={this.item.wiki} target="_blank">Documentation</a>  |  
-                                <a href={this.item.github} target="_blank">  Github</a>   |  
-                                <a href={this.item.url} target="_blank">  See it live!</a>
+                                <a href={this.item.wiki} target="_blank">Documentation</a>
+                            </Typography>
+                            <Typography>
+                                <p>Status: {this.item.status}</p>
+                            </Typography>
+                            <Typography>
+                                <p>{this.item.description}</p>
                             </Typography>
                         </CardContent>
                     </Card>

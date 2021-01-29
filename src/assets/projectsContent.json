@@ -1,40 +1,33 @@
 {
     "projectItems":[
         {
-            "title" : "Arch Linux Server",
-            "url":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Arch%20Linux%20Server/",
-            "github":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Arch%20Linux%20Server/",
-            "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Arch%20Linux%20Server/",
-            "status": "active",
-            "startDate" : "Sept. 2020"
+            "title" : "Arch Linux PC",
+            "wiki": "https://xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/PC/",
+            "status": "Active",
+            "startDate" : "January 2021",
+            "description": "A small project that was a lot of fun and highly educational. I built a PC with my brother over Christmas and used that as an opportunity to set up an Arch install. Check out the docs for step-by-step instructions on how I did it. Couldn't be happier with the result!"
+        },
+        {
+            "title" : "Portfolio Cloud Manager",
+            "wiki":"https://xwiki.thomas-driscoll.com/xwiki/bin/view/Portfolio%20Manager%20Cloud%20Service/",
+            "status": "Active",
+            "startDate" : "October 2020",
+            "description": "The most ambitious project (in terms of technical complexity) I've come up with for myself. Please read the docs at my XWiki if you're interested for more!"
         },
         {
             "title" : "DriscollDocs",
-            "url":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Main/",
-            "github":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Main/",
             "wiki": "https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Main/",
-            "startDate" : "July 2020"
+            "status": "Active",
+            "startDate" : "July 2020",
+            "description": "My solution to communicating my projects, providing myself with documentation for my various projects and counteracting my terrible memory."
         }, 
         {
             "title" : "Personal website",
-            "url":"https://resume.thomas-driscoll.com",
             "github":"https://github.com/thomasdriscoll/personal-website",
             "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Resume%20Website/",
-            "startDate" : "May 2020"
-        },
-        {
-            "title" : "Open-Source at Illinois",
-            "url":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/opensource%40illinois/",
-            "github":"https://github.com/thomasdriscoll/open-source-illinois-web",
-            "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/opensource%40illinois/",
-            "startDate" : "May 2019"
-        },
-        {
-            "title" : "CS 225 website",
-            "url":"https://thomasdriscoll.pythonanywhere.com",
-            "github":"https://github.com/thomasdriscoll/cs225web",
-            "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/CS%20225%20Website/",
-            "startDate" : "May 2018"         
+            "status": "Maintenance",
+            "startDate" : "May 2020",
+            "description": "If you're reading this from LinkedIn, it clearly did its job!"
         }
     ]
 }
