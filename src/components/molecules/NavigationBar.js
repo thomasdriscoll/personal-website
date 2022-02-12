@@ -12,7 +12,7 @@ export default class NavigationBar extends React.Component{
         <Navbar className = "thomasNavbar" bg="dark" variant="dark" expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav> 
+                <Nav className='m-auto'> 
                     <Nav.Item>
                         <Nav.Link as={Link} to='/'>Home</Nav.Link>
                     </Nav.Item>  
