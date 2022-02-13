@@ -4,7 +4,9 @@
 			"title": "Software Engineer, Associate",
 			"location": "JPMorgan Chase",
 			"description": [
-				"blah blah blah"
+				"Having been recruited by JPMorgan Chase, I joined because I was excited to work in Consumer and Community Banking, as I thought (and was proven right) that their technical stack is at interesting point for growth and expansion. This had been something that I had been actively seeking for some time as I believe finanical institutions, especially in underdeveloped communities, have the potential to build prosperity for all. I was initially assigned as a back-end engineer on FDIC but will soon transfer with my team to a more customer-focused sector. ",
+				"I also worked on the project to migrate internal tool DataLeaf (go/dataleaf) from Moneta Boot to Photon Boot.  This entailed resolving security concerns involving SQL injection and log4j, as well as reworking parts of the front-end system.  These projects have further honed by skills in issue identification and resolving those issues collaboratively with my team.",
+				"Our current tech stack is Photon/Spring Boot, DB2 & CockroachDB databases. However, as JPMC transitions more legacy software and builds new features for customers, I have been teaching myself Golang (see the Projects tab) and Kuberets, so as to be an advocate for their adoption inside the firm. Towards that end, I have been working to obtain my Kubernetes Developer credential, which I expect to complete by the end of March 2022, and building out a project in Golang (details on the project tab)."
 			],
 			"time": "September 2021 - Present",
 			"picTitle": "JPMorgan Chase",

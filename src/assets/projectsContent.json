@@ -1,5 +1,12 @@
 {
     "projectItems":[
+		{
+			"title": "Short Story App",
+			"wiki": "https://xwiki.thomas-driscoll.com/xwiki/bin/view/ShortStoryApp/",
+			"status": "Active",
+			"startDate": "December 2021",
+			"description": "After taking a break from projects to focus on finding and settling in at a new job, I wanted to do a fun project that satisifed an ongoing need of mine... more good reading! Please see XWiki link for more details."
+		},
         {
             "title" : "Arch Linux PC",
             "wiki": "https://xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/PC/",
@@ -10,10 +17,10 @@
         {
             "title" : "Portfolio Cloud Manager",
             "wiki":"https://xwiki.thomas-driscoll.com/xwiki/bin/view/Portfolio%20Manager%20Cloud%20Service/",
-            "status": "Active",
-            "startDate" : "October 2020",
-            "description": "The most ambitious project (in terms of technical complexity) I've come up with for myself. Please read the docs at my XWiki if you're interested for more!"
-        },
+            "status": "Archived",
+            "startDate" : "October 2020 - May 2021",
+            "description": "The most ambitious project (in terms of technical complexity) I've come up with for myself. The act of attempting it solo taught me a lot and I still plan to return to it. From it, I began work on my Kubernetes Developer certification and my ongoing Golang development journey. "
+ 		},
         {
             "title" : "DriscollDocs",
             "wiki": "https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Main/",
@@ -25,7 +32,7 @@
             "title" : "Personal website",
             "github":"https://github.com/thomasdriscoll/personal-website",
             "wiki":"https://www.xwiki.thomas-driscoll.com/xwiki/bin/view/Personal%20Projects/Resume%20Website/",
-            "status": "Maintenance",
+            "status": "Active",
             "startDate" : "May 2020",
             "description": "If you're reading this from LinkedIn, it clearly did its job!"
         }
